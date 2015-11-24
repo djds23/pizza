@@ -3,4 +3,11 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
   background-image: url("/assets/pizza.jpg");
+  background-position: center;
+}
+
+p {
+  text-align: center;
+  color: coral;
+  font-size: 12em;
 }
