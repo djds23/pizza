@@ -1,1 +1,1 @@
-<p><%=  @request.subdomain.gsub(/-/, ' ').split.map(&:capitalize).join(" ") << " enjoys pizza :)" if @request.subdomain.present? %></p>
+<p><%=  @request.subdomain.gsub(/_|-/, ' ').split.map(&:capitalize).join(" ") << " enjoys pizza :)" if @request.subdomain.present? %></p>
