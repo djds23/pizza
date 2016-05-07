@@ -1,5 +1,5 @@
 <% if @request.subdomain.present? %></p>
-  <p> <%= @request.subdomain.upcase << " enjoys pizza :)" %></p>
+  <p> <%= @request.subdomain.humanize << " enjoys pizza :)" %></p>
 <% else %>
   <p><input type="text" /> enjoys pizza!</p>
 <% end %>
